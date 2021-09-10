@@ -88,7 +88,7 @@
         <div class="form-group row">
             <label class="col-sm-4 col-form-label" >amount:</label>
             <div class="col-sm-8">
-                <input type="number" class="form-control" th:field="*{amount}"   minlength="2" maxlength="250" required/>
+                <input type="number" class="form-control" th:field="*{amount}"  min="0" step="0.1"  minlength="2" maxlength="250" required/>
             </div>
         </div>
 
