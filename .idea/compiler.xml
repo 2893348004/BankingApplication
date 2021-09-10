@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CardAssocistion" />
+        <module name="MerchantBanks" />
+        <module name="PaymentProcessor" />
+        <module name="IssuerBanks" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CardAssocistion" target="11" />
+      <module name="IssuerBanks" target="11" />
+      <module name="MerchantBanks" target="11" />
+      <module name="PaymentProcessor" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CardAssocistion" options="-parameters" />
+      <module name="IssuerBanks" options="-parameters" />
+      <module name="MerchantBanks" options="-parameters" />
+      <module name="PaymentProcessor" options="-parameters" />
+    </option>
+  </component>
+</project>
